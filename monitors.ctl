@@ -1,5 +1,5 @@
 Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/CO2/CO2
-Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Flujometro_FW/Flujo
+#Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Flujometro_FW/Flujo
 #Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/ORP/ORP
 #Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Oxygen/Salinidad
 #Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Oxygen/Saturation
@@ -10,7 +10,7 @@ Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Flujometro_FW/Flujo
 Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Temperature
 #Blumar/Sealand2/SM3A/Tanks/TK02/Oxygen/Saturation
-#Blumar/Sealand2/SM3A/Tanks/TK02/Oxygen/Temperature
+Blumar/Sealand2/SM3A/Tanks/TK02/Oxygen/Temperature
 #Blumar/Sealand2/SM3A/Tanks/TK03/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK03/Oxygen/Temperature
 #Blumar/Sealand2/SM3A/Tanks/TK04/Oxygen/Saturation
@@ -18,7 +18,7 @@ Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK05/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK05/Oxygen/Temperature
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/CO2/CO2
-#Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/ORP/ORP
+Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/ORP/ORP
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Salinidad
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Saturation
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Temperature
@@ -27,8 +27,8 @@ Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Saturation
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/PH3/PH
 #Blumar/Sealand2/SM3B/Tanks/TK06/Oxygen/Saturation
 #Blumar/Sealand2/SM3B/Tanks/TK06/Oxygen/Temperature
-#Blumar/Sealand2/SM3B/Tanks/TK07/Oxygen/Saturation
-#Blumar/Sealand2/SM3B/Tanks/TK07/Oxygen/Temperature
+Blumar/Sealand2/SM3B/Tanks/TK07/Oxygen/Saturation
+Blumar/Sealand2/SM3B/Tanks/TK07/Oxygen/Temperature
 #Blumar/Sealand2/SM3B/Tanks/TK08/Oxygen/Saturation
 #Blumar/Sealand2/SM3B/Tanks/TK08/Oxygen/Temperature
 #Blumar/Sealand2/SM3B/Tanks/TK09/Oxygen/Saturation
@@ -153,7 +153,7 @@ Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Saturation
 #Chayahue/Sealand2/SM3A/Tanks/TK04/Oxygen/Temperature
 #Chayahue/Sealand2/SM3A/Tanks/TK05/Oxygen/Saturation
 #Chayahue/Sealand2/SM3A/Tanks/TK05/Oxygen/Temperature
-#Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Alarma
+Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Alarma
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Automatico
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Manual
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Operando
@@ -221,7 +221,7 @@ Blumar/Sealand2/SM3A/Tanks/TK01/Oxygen/Saturation
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/Salinidad/Salinidad
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/Saturation/Saturation
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/Temperature/Temperature
-#Chayahue/Sealand2/SM3B/Tanks/TK06/Oxygen/Saturation
+Chayahue/Sealand2/SM3B/Tanks/TK06/Oxygen/Saturation
 #Chayahue/Sealand2/SM3B/Tanks/TK06/Oxygen/Temperature
 #Chayahue/Sealand2/SM3B/Tanks/TK07/Oxygen/Saturation
 #Chayahue/Sealand2/SM3B/Tanks/TK07/Oxygen/Temperature

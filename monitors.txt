@@ -1,0 +1,399 @@
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.CO2,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.Flujometro_FW,Flujo,"AB SM3:SEALAND:SENSOR_ANALOGO:FIT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.ORP,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST801.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.Oxygen,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.PH1,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT705.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.PH2,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT707.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Biofiltros.Biofiltros1.PH3,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK01.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK01.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK02.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK02.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK03.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK03.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK04.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK04.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK05.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3A.Tanks.TK05.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.CO2,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT202.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.ORP,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST802.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.Oxygen,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.PH1,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT706.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.PH2,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT708.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Biofiltros.Biofiltros1.PH3,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK06.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK06.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK07.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK07.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK08.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK08.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK09.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK09.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK10.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK10.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK11.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK11.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK12.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK12.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK13.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK13.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK14.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM3B.Tanks.TK14.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.CO2,CO2,S6_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.HEAD_TANK_LEVEL,Level,S6_HT_LIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.ORP,ORP,S6_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.Oxigen,DO,S6_HT_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.Oxigen,DO_PPM,S6_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.PH,PH,S6_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.Salinity,Sanility,S6_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Biofiltros.Biofiltros1.Temperature,Temperature,S6_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T19.Oxygen,DO,S6_T19_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T19.Oxygen,DO_PPM,S6_TK19_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T20.Oxygen,DO,S6_TK20_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T20.Oxygen,DO_PPM,S6_TK20_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T21.Oxygen,DO,S6_TK21_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T21.Oxygen,DO_PPM,S6_T21_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T22.Oxygen,DO,S6_TK22_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM6.Tanks.T22.Oxygen,DO_PPM,S6_TK22_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.CO2,CO2,S7_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.ORP,ORP,S7_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.Oxigen,DO,S7_HT_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.Oxigen,DO_PPM,S7_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.PH,PH,S7_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.Salinity,Salinity,S7_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Biofiltros.Biofiltros1.Temperature,Temperature,S7_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T23.Oxygen,DO,S7_T23_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T23.Oxygen,DO_PPM,S7_T23_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T24.Oxygen,DO,S7_T24_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T24.Oxygen,DO_PPM,S7_T24_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T25.Oxygen,DO,S7_T25_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T25.Oxygen,DO_PPM,S7_T25_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T26.Oxygen,DO,S7_T26_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Blumar.Sealand2.SM7.Tanks.T26.Oxygen,DO_PPM,S7_T26_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.BombaDosificadoraCal-A,Alarma,"AB SM3:SEALAND:BOOL:M701_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.BombaDosificadoraCal-A,Automatico,"AB SM3:SEALAND:BOOL:M701_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.BombaDosificadoraCal-A,Manual,"AB SM3:SEALAND:BOOL:M701_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.BombaDosificadoraCal-A,Operando,"AB SM3:SEALAND:BOOL:M701_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.CO2,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A1,Alarma,"AB SM3:SEALAND:BOOL:M201_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A1,Automatico,"AB SM3:SEALAND:BOOL:M201_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A1,Manual,"AB SM3:SEALAND:BOOL:M201_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A1,Operando,"AB SM3:SEALAND:BOOL:M201_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A2,Alarma,"AB SM3:SEALAND:BOOL:M202_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A2,Automatico,"AB SM3:SEALAND:BOOL:M202_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A2,Manual,"AB SM3:SEALAND:BOOL:M202_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A2,Operando,"AB SM3:SEALAND:BOOL:M202_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A3,Alarma,"AB SM3:SEALAND:BOOL:M203_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A3,Automatico,"AB SM3:SEALAND:BOOL:M203_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A3,Manual,"AB SM3:SEALAND:BOOL:M203_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A3,Operando,"AB SM3:SEALAND:BOOL:M203_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A4,Alarma,"AB SM3:SEALAND:BOOL:M204_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A4,Automatico,"AB SM3:SEALAND:BOOL:M204_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A4,Manual,"AB SM3:SEALAND:BOOL:M204_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A4,Operando,"AB SM3:SEALAND:BOOL:M204_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A5,Alarma,"AB SM3:SEALAND:BOOL:M205_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A5,Automatico,"AB SM3:SEALAND:BOOL:M205_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A5,Manual,"AB SM3:SEALAND:BOOL:M205_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Elevadora-A5,Operando,"AB SM3:SEALAND:BOOL:M205_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.FiltroUV-A,Alarma,"AB SM3:SEALAND:BOOL:RK401_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.FiltroUV-A,Automatico,"AB SM3:SEALAND:BOOL:RK401_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.FiltroUV-A,Manual,"AB SM3:SEALAND:BOOL:RK401_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.FiltroUV-A,Operando,"AB SM3:SEALAND:BOOL:RK401_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Flujometro_FW_BIO_Value,Flujo,"AB SM3:SEALAND:SENSOR_ANALOGO:FIT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.ORP,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST801.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Ozono-A,Alarma,"AB SM3:SEALAND:BOOL:ARK801_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Ozono-A,Automatico,"AB SM3:SEALAND:BOOL:ARK801_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Ozono-A,Manual,"AB SM3:SEALAND:BOOL:ARK801_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Ozono-A,Operando,"AB SM3:SEALAND:BOOL:ARK801_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PH1,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT705.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PH2,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT707.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PH3,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-1,Alarma,"AB SM3:SEALAND:BOOL:M501_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-1,Automatico,"AB SM3:SEALAND:BOOL:M501_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-1,Manual,"AB SM3:SEALAND:BOOL:M501_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-1,Operando,"AB SM3:SEALAND:BOOL:M501_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-11,Alarma,"AB SM3:SEALAND:BOOL:M511_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-11,Automatico,"AB SM3:SEALAND:BOOL:M511_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-11,Manual,"AB SM3:SEALAND:BOOL:M511_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-11,Operando,"AB SM3:SEALAND:BOOL:M511_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-12,Alarma,"AB SM3:SEALAND:BOOL:M512_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-12,Automatico,"AB SM3:SEALAND:BOOL:M512_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-12,Manual,"AB SM3:SEALAND:BOOL:M512_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-12,Operando,"AB SM3:SEALAND:BOOL:M512_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-2,Alarma,"AB SM3:SEALAND:BOOL:M502_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-2,Automatico,"AB SM3:SEALAND:BOOL:M502_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-2,Manual,"AB SM3:SEALAND:BOOL:M502_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-2,Operando,"AB SM3:SEALAND:BOOL:M502_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-3,Alarma,"AB SM3:SEALAND:BOOL:M503_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-3,Automatico,"AB SM3:SEALAND:BOOL:M503_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-3,Manual,"AB SM3:SEALAND:BOOL:M503_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-3,Operando,"AB SM3:SEALAND:BOOL:M503_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-4,Alarma,"AB SM3:SEALAND:BOOL:M504_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-4,Automatico,"AB SM3:SEALAND:BOOL:M504_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-4,Manual,"AB SM3:SEALAND:BOOL:M504_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-4,Operando,"AB SM3:SEALAND:BOOL:M504_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-5,Alarma,"AB SM3:SEALAND:BOOL:M505_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-5,Automatico,"AB SM3:SEALAND:BOOL:M505_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-5,Manual,"AB SM3:SEALAND:BOOL:M505_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.PressurePump-5,Operando,"AB SM3:SEALAND:BOOL:M505_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Salinidad,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Saturation,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Biofiltros.Biofiltro1.Temperature,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK01.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK01.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK02.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK02.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK03.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK03.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK04.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK04.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK05.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3A.Tanks.TK05.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.BombaDosificadoraCal-B,Alarma,"AB SM3:SEALAND:BOOL:M702_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.BombaDosificadoraCal-B,Automatico,"AB SM3:SEALAND:BOOL:M702_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.BombaDosificadoraCal-B,Manual,"AB SM3:SEALAND:BOOL:M702_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.BombaDosificadoraCal-B,Operando,"AB SM3:SEALAND:BOOL:M702_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.CO2,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT202.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B1,Alarma,"AB SM3:SEALAND:BOOL:M206_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B1,Automatico,"AB SM3:SEALAND:BOOL:M206_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B1,Manual,"AB SM3:SEALAND:BOOL:M206_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B1,Operando,"AB SM3:SEALAND:BOOL:M206_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B2,Alarma,"AB SM3:SEALAND:BOOL:M207_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B2,Automatico,"AB SM3:SEALAND:BOOL:M207_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B2,Manual,"AB SM3:SEALAND:BOOL:M207_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B2,Operando,"AB SM3:SEALAND:BOOL:M207_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B3,Alarma,"AB SM3:SEALAND:BOOL:M208_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B3,Automatico,"AB SM3:SEALAND:BOOL:M208_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B3,Manual,"AB SM3:SEALAND:BOOL:M208_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B3,Operando,"AB SM3:SEALAND:BOOL:M208_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B4,Alarma,"AB SM3:SEALAND:BOOL:M209_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B4,Automatico,"AB SM3:SEALAND:BOOL:M209_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B4,Manual,"AB SM3:SEALAND:BOOL:M209_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B4,Operando,"AB SM3:SEALAND:BOOL:M209_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B5,Alarma,"AB SM3:SEALAND:BOOL:M210_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B5,Automatico,"AB SM3:SEALAND:BOOL:M210_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B5,Manual,"AB SM3:SEALAND:BOOL:M210_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Elevadora-B5,Operando,"AB SM3:SEALAND:BOOL:M210_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.FiltroUV-B,Alarma,"AB SM3:SEALAND:BOOL:RK402_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.FiltroUV-B,Automatico,"AB SM3:SEALAND:BOOL:RK402_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.FiltroUV-B,Manual,"AB SM3:SEALAND:BOOL:RK402_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.FiltroUV-B,Operando,"AB SM3:SEALAND:BOOL:RK402_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.ORP,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST802.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Ozono-B,Alarma,"AB SM3:SEALAND:BOOL:ARK802_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Ozono-B,Automatico,"AB SM3:SEALAND:BOOL:ARK802_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Ozono-B,Manual,"AB SM3:SEALAND:BOOL:ARK802_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Ozono-B,Operando,"AB SM3:SEALAND:BOOL:ARK802_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PH1,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT706.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PH2,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT708.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PH3,PH,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-10,Alarma,"AB SM3:SEALAND:BOOL:M510_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-10,Automatico,"AB SM3:SEALAND:BOOL:M510_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-10,Manual,"AB SM3:SEALAND:BOOL:M510_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-10,Operando,"AB SM3:SEALAND:BOOL:M510_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-13,Alarma,"AB SM3:SEALAND:BOOL:M513_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-13,Automatico,"AB SM3:SEALAND:BOOL:M513_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-13,Manual,"AB SM3:SEALAND:BOOL:M513_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-13,Operando,"AB SM3:SEALAND:BOOL:M513_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-14,Alarma,"AB SM3:SEALAND:BOOL:M514_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-14,Automatico,"AB SM3:SEALAND:BOOL:M514_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-14,Manual,"AB SM3:SEALAND:BOOL:M514_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-14,Operando,"AB SM3:SEALAND:BOOL:M514_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-6,Alarma,"AB SM3:SEALAND:BOOL:M506_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-6,Automatico,"AB SM3:SEALAND:BOOL:M506_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-6,Manual,"AB SM3:SEALAND:BOOL:M506_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-6,Operando,"AB SM3:SEALAND:BOOL:M506_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-7,Alarma,"AB SM3:SEALAND:BOOL:M507_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-7,Automatico,"AB SM3:SEALAND:BOOL:M507_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-7,Manual,"AB SM3:SEALAND:BOOL:M507_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-7,Operando,"AB SM3:SEALAND:BOOL:M507_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-8,Alarma,"AB SM3:SEALAND:BOOL:M508_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-8,Automatico,"AB SM3:SEALAND:BOOL:M508_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-8,Manual,"AB SM3:SEALAND:BOOL:M508_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-8,Operando,"AB SM3:SEALAND:BOOL:M508_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-9,Alarma,"AB SM3:SEALAND:BOOL:M509_FALLA.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-9,Automatico,"AB SM3:SEALAND:BOOL:M509_AUTOMATICO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-9,Manual,"AB SM3:SEALAND:BOOL:M509_MANUAL.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.PressurePump-9,Operando,"AB SM3:SEALAND:BOOL:M509_OPERANDO.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Salinidad,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Saturation,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Biofiltros.Biofiltro1.Temperature,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK06.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK06.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK07.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK07.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK08.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK08.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK09.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK09.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK10.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK10.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK11.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK11.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK12.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK12.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK13.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK13.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK14.Oxygen,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM3B.Tanks.TK14.Oxygen,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.CO2,CO2,S6_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Flujometro_FW,Flow,S6_FW_FIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Flujometro_FW,Manual,S6_FW_FIC_MAN_VAL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Flujometro_SW,Flow,S6_SW_FIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Flujometro_SW,Manual,S6_SW_FIC_MAN_VAL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.HEAD_TANK_LEVEL,Level,S6_HT_LIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.ORP,ORP,S6_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Oxygen,Saturation,S6_HT_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Oxygen,Concentration,S6_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.PH,PH,S6_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Salinidad,Salinidad,S6_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Biofiltros.Biofiltro1.Temperature,Temperature,S6_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,Saturation,S6_T19_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,Concentration,S6_T19_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,Emergency_Setpoint,S6_TL19_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,Emergency_Disable_Setpoint,S6_TL19_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,Setpoint,S6_T19_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T19.Oxygen,High_Level_Setpoint,S6_T19_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,Saturation,S6_T20_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,Concentration,S6_T20_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,Emergency_Setpoint,S6_TL20_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,Emergency_Disable_Setpoint,S6_TL20_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,Setpoint,S6_T20_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T20.Oxygen,High_Level_Setpoint,S6_T20_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,Saturation,S6_T21_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,Concentration,S6_T21_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,Emergency_Setpoint,S6_TL21_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,Emergency_Disable_Setpoint,S6_TL21_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,Setpoint,S6_T21_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T21.Oxygen,High_Level_Setpoint,S6_T21_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,Saturation,S6_T22_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,Concentration,S6_T22_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,Emergency_Setpoint,S6_TL22_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,Emergency_Disable_Setpoint,S6_TL22_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,Setpoint,S6_T22_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM6.Tanks.T22.Oxygen,High_Level_Setpoint,S6_T22_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.CO2,CO2,S7_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.ORP,ORP,S7_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Oxygen,Concentration,S7_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Oxygen,Saturation,S7_HT_AIC_PV,0,0,1,0,1000,,,,,,,0,0,0,1,1,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Temperature,Temperature,S7_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.PH,PH,S7_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Salinidad,Salinidad,S7_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Flujometro_FW,Flow,S7_FW_FIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Flujometro_FW,Manual,S7_FW_FIC_MAN_VAL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Flujometro_SW,Flow,S7_SW_FIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.Flujometro_SW,Manual,S7_SW_FIC_MAN_VAL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Biofiltros.Biofiltro1.HEAD_TANK_LEVEL,Level,S7_HT_LIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,Saturation,S7_T23_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,Concentration,S7_T23_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,Emergency_Setpoint,S7_TL23_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,Emergency_Disable_Setpoint,S7_TL23_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,Setpoint,S7_T23_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T23.Oxygen,High_Level_Setpoint,S7_T23_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,Saturation,S7_T24_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,Concentration,S7_T24_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,Emergency_Setpoint,S7_TL24_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,Emergency_Disable_Setpoint,S7_TL24_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,Setpoint,S7_T24_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T24.Oxygen,High_Level_Setpoint,S7_T24_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,Saturation,S7_T25_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,Concentration,S7_T25_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,Emergency_Setpoint,S7_TL25_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,Emergency_Disable_Setpoint,S7_TL25_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,Setpoint,S7_T25_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T25.Oxygen,High_Level_Setpoint,S7_T25_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,Saturation,S7_T26_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,Concentration,S7_T26_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,Emergency_Setpoint,S7_TL26_LDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,Emergency_Disable_Setpoint,S7_TL26_LDO_SP_OK,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,Setpoint,S7_T26_AIC_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Chayahue.Sealand2.SM7.Tanks.T26.Oxygen,High_Level_Setpoint,S7_T26_HDO_SP,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.FF2.Biofiltro,CO2_BIO_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.FF2.Tanks,Oxygen_TK02_TANKS_PPM_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.FRY2.Biofiltro,pH_BIO_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.FRY2.Tanks,Oxygen_TK03_TANKS_Temperature_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Hatchery3.Biofiltro,Pump_Sump_Level_BIO_Valiue,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Hatchery3.Tanks,Oxygen_TK01_TANKS_Ppm_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.PS2.Biofiltro,TGP_BIO_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.PS2.Tanks,Oxygen_TK01_TANKS_PPM_Value,Sample_FLT4,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,Flujometro_FW_BIO_Value,"AB SM3:SEALAND:SENSOR_ANALOGO:FIT201.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST801.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,PH1,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT705.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,PH2,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT707.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,PH3,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT701.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Biofiltro,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_A.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK01-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK01-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT501.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK02-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK02-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT502.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK03-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK03-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT503.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK04-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK04-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT504.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK05-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3A.Tanks.TK05-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT505.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,CO2,"AB SM3:SEALAND:SENSOR_ANALOGO:DCT202.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,ORP,"AB SM3:SEALAND:SENSOR_COMUNICACION:ST802.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,PH1,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT706.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,PH2,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT708.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,PH3,"AB SM3:SEALAND:SENSOR_COMUNICACION:AIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,Salinidad,"AB SM3:SEALAND:SENSOR_COMUNICACION:CIT702.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Biofiltro,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT500_B.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK06-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK06-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT506.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK07-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK07-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT507.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK08-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK08-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT508.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK09-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK09-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT509.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK10-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK10-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT510.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK11-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK11-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT511.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK12-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK12-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT512.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK13-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK13-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT513.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK14-Oxy,Saturation,"AB SM3:SEALAND:SENSOR_COMUNICACION:OIT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM3B.Tanks.TK14-Oxy,Temperature,"AB SM3:SEALAND:SENSOR_COMUNICACION:TT514.PV.VALUE",0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_CO2_SCL,S7_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_HT_AIC_PV,S7_HT_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_HT_DO_PPM,S7_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_ORP_SCL,S7_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_PH_SCL,S7_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_SAL_SCL,S7_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Biofiltro,S7_TEMP_SCL,S7_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T23_AIC_PV,S7_T23_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T23_DO_PPM,S7_T23_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T24_AIC_PV,S7_T24_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T24_DO_PPM,S7_T24_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T25_AIC_PV,S7_T25_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T25_DO_PPM,S7_T25_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T26_AIC_PV,S7_T26_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.SM7.Tanks,S7_T26_DO_PPM,S7_T26_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,HEAD_TANK_LEVEL,S6_HT_LIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_CO2_SCL,S6_CO2_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_HT_AIC_PV,S6_HT_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_HT_DO_PPM,S6_HT_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_ORP_SCL,S6_ORP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_PH_SCL,S6_PH_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_SAL_SCL,S6_SAL_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Biofiltro,S6_TEMP_SCL,S6_TEMP_SCL,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T19_AIC_PV,S6_T19_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T19_DO_PPM,S6_TK19_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T20_AIC_PV,S6_TK20_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T20_DO_PPM,S6_TK20_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T21_AIC_PV,S6_TK21_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T21_DO_PPM,S6_T21_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T22_AIC_PV,S6_TK22_AIC_PV,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+Sealand2.Smolt6.Tanks,S6_T22_DO_PPM,S6_TK22_DO_PPM,0,1,0,1000,0,,,,,,,0,Alias,0,1,,0,0
+
+

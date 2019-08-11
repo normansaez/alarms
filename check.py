@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-def send_email(send_to='norman.saez@blueshadows.cl', room=''):
+def send_email(send_to='norman.saez@blueshadows.cl', room='', msg=''):
     '''
     Sent the email
     '''
@@ -16,7 +16,7 @@ def send_email(send_to='norman.saez@blueshadows.cl', room=''):
     msg['From'] = 'sealand.alarms@gmail.com'
     msg['To'] = send_to
     msg['Subject'] = 'Alarm from %s' % room
-    message = 'Check %s and see if the room is turned off' % room
+    message = msg
     msg.attach(MIMEText(message))
     
     mailserver = smtplib.SMTP('smtp.gmail.com:587')
@@ -46,6 +46,9 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
         return list(result.get_points())[0]['count']
     except:
         print "not working.. .!"
+        msg = 'Check %s , they are not responding !' % monitor
+        send_email('norman.saez@blueshadows.cl',database, msg)
+        send_email('tshen@blueshadows.cl',database, msg)
         return 0
 def is_stuck(database, point):
     '''
@@ -136,8 +139,9 @@ def monitor_points():
         is_room_stuck(k,v)
         task = executor.submit(is_room_stuck,k,v)
         if task.result() is True:
-            send_email('norman.saez@blueshadows.cl',k)
-            send_email('tshen@blueshadows.cl',k)
+            msg = 'Check ROOM %s , it seems to be off' % k
+            send_email('norman.saez@blueshadows.cl',k, msg)
+            send_email('tshen@blueshadows.cl',k, msg)
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:

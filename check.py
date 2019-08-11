@@ -40,7 +40,9 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
     '''
     client = InfluxDBClient('localhost', 8086, 'root', 'root', database)
     result = client.query('SELECT count("value") FROM "%s"'%monitor)
+    print "DS: %s" % monitor
     if result.items().__len__() > 0:
+        print list(result.get_points())[0]['count']
         return list(result.get_points())[0]['count']
     return 0
 

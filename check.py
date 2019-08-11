@@ -15,8 +15,8 @@ def send_email(send_to='norman.saez@blueshadows.cl', room=''):
     msg = MIMEMultipart()
     msg['From'] = 'sealand.alarms@gmail.com'
     msg['To'] = send_to
-    msg['Subject'] = 'Alarm to %s' % room
-    message = 'here is the email'
+    msg['Subject'] = 'Alarm from %s' % room
+    message = 'Check %s and see if the room is turned off' % room
     msg.attach(MIMEText(message))
     
     mailserver = smtplib.SMTP('smtp.gmail.com:587')
@@ -40,13 +40,13 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
     '''
     client = InfluxDBClient('localhost', 8086, 'root', 'root', database)
     result = client.query('SELECT count("value") FROM "%s"'%monitor)
-    print "DS: %s" % monitor
+    print "DS: %s: " % monitor,
     try:
         print list(result.get_points())[0]['count']
         return list(result.get_points())[0]['count']
     except:
         print "not working.. .!"
-        return 
+        return 0
 def is_stuck(database, point):
     '''
     make a query and after a minute check if the same query has the same counts
@@ -60,8 +60,8 @@ def is_stuck(database, point):
     m2 = query_count(database, point) 
     diff = abs(m2-m1)
     if diff == 0:
-        return True
-    return False
+        return 0
+    return 1
         
 def is_room_stuck(database_room, monitors):
     '''
@@ -73,13 +73,10 @@ def is_room_stuck(database_room, monitors):
 
     goto: is_stuck
     '''
-    print database_room
-    print monitors
     database = database_room.split("|")[0]
     executor = ThreadPoolExecutor(max_workers=len(monitors))
     tasks_results = []
     for point in monitors:
-        print point
         task = executor.submit(is_stuck,database, point)
         tasks_results.append(task.result())
     executor.shutdown(wait=True)
@@ -87,8 +84,10 @@ def is_room_stuck(database_room, monitors):
     result = 0
     for i in tasks_results:
         result = i + result
-    print i
-    
+    print result
+    if result == 0:
+        return True
+    return False
         
 def monitor_points():
     '''
@@ -125,22 +124,20 @@ def monitor_points():
                 temp = []
         elif not data.__contains__('#'):
                 data = data.rsplit('\n')[0]
-                print data
                 namespace = data.split("/")
-                print namespace
                 database = namespace[0]
                 room = namespace[2]
                 monitor = namespace[1]+"/"+namespace[2]+"/"+namespace[3]+"/"+namespace[4]+"/"+namespace[5]+"/"+namespace[6]
-                print monitor
                 temp.append(monitor)
     all_threads.update({database+"|"+room:temp})
-    print  
     executor = ThreadPoolExecutor(max_workers=len(all_threads))
+    tasks_results = []
     for k,v in all_threads.iteritems():
         is_room_stuck(k,v)
-        print k
-        print v
         task = executor.submit(is_room_stuck,k,v)
+        if task.result() is True:
+            send_email('norman.saez@blueshadows.cl',k)
+            send_email('tshen@blueshadows.cl',k)
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:

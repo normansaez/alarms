@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
+from argparse import ArgumentParser
 
 def send_email(send_to='norman.saez@blueshadows.cl', room='', mess=''):
     '''
@@ -92,7 +93,7 @@ def is_room_stuck(database_room, monitors):
         return True
     return False
         
-def monitor_points():
+def monitor_points(filename):
     '''
     Read a file with this format:
     ---
@@ -114,7 +115,6 @@ def monitor_points():
     then for each ROOM execute a thread to check if the room is stuck:
     goto: is_room_stuck
     '''
-    filename = 'monitors.ctl'
     fpt = open(filename,'rw')
     lines = fpt.readlines()
     all_threads = {}
@@ -145,4 +145,12 @@ def monitor_points():
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:
-    monitor_points()
+    usage = '''
+    Usage: check [options]
+    
+    Type -h, --help for help.
+    '''
+    parser = ArgumentParser(usage=usage,conflict_handler='resolve')
+    parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename")
+    (options, unknown) = parser.parse_known_args()
+    monitor_points(options.filename)

@@ -18,7 +18,7 @@ Blumar/Sealand2/SM3A/Biofiltros/Biofiltros1/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK04/Oxygen/Temperature
 #Blumar/Sealand2/SM3A/Tanks/TK05/Oxygen/Saturation
 #Blumar/Sealand2/SM3A/Tanks/TK05/Oxygen/Temperature
-#ROOM
+ROOM
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/CO2/CO2
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/ORP/ORP
 #Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Salinidad
@@ -78,7 +78,7 @@ Blumar/Sealand2/SM7/Tanks/T25/Oxygen/DO
 Blumar/Sealand2/SM7/Tanks/T25/Oxygen/DO_PPM
 Blumar/Sealand2/SM7/Tanks/T26/Oxygen/DO
 Blumar/Sealand2/SM7/Tanks/T26/Oxygen/DO_PPM
-#ROOM
+ROOM
 #Chayahue/Sealand2/SM3A/Biofiltros/Biofiltro1/BombaDosificadoraCal-A/Alarma
 #Chayahue/Sealand2/SM3A/Biofiltros/Biofiltro1/BombaDosificadoraCal-A/Automatico
 #Chayahue/Sealand2/SM3A/Biofiltros/Biofiltro1/BombaDosificadoraCal-A/Manual
@@ -158,7 +158,7 @@ Blumar/Sealand2/SM7/Tanks/T26/Oxygen/DO_PPM
 #Chayahue/Sealand2/SM3A/Tanks/TK04/Oxygen/Temperature
 #Chayahue/Sealand2/SM3A/Tanks/TK05/Oxygen/Saturation
 #Chayahue/Sealand2/SM3A/Tanks/TK05/Oxygen/Temperature
-#ROOM
+ROOM
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Alarma
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Automatico
 #Chayahue/Sealand2/SM3B/Biofiltros/Biofiltro1/BombaDosificadoraCal-B/Manual
@@ -245,7 +245,7 @@ Blumar/Sealand2/SM7/Tanks/T26/Oxygen/DO_PPM
 #Chayahue/Sealand2/SM3B/Tanks/TK13/Oxygen/Temperature
 #Chayahue/Sealand2/SM3B/Tanks/TK14/Oxygen/Saturation
 #Chayahue/Sealand2/SM3B/Tanks/TK14/Oxygen/Temperature
-#ROOM
+ROOM
 #Chayahue/Sealand2/SM6/Biofiltros/Biofiltro1/CO2/CO2
 #Chayahue/Sealand2/SM6/Biofiltros/Biofiltro1/Flujometro_FW/Flow
 #Chayahue/Sealand2/SM6/Biofiltros/Biofiltro1/Flujometro_FW/Manual
@@ -282,7 +282,7 @@ Blumar/Sealand2/SM7/Tanks/T26/Oxygen/DO_PPM
 #Chayahue/Sealand2/SM6/Tanks/T22/Oxygen/Emergency_Disable_Setpoint
 #Chayahue/Sealand2/SM6/Tanks/T22/Oxygen/Setpoint
 #Chayahue/Sealand2/SM6/Tanks/T22/Oxygen/High_Level_Setpoint
-#ROOM
+ROOM
 #Chayahue/Sealand2/SM7/Biofiltros/Biofiltro1/CO2/CO2
 #Chayahue/Sealand2/SM7/Biofiltros/Biofiltro1/ORP/ORP
 #Chayahue/Sealand2/SM7/Biofiltros/Biofiltro1/Oxygen/Concentration

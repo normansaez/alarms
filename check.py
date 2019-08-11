@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from influxdb import InfluxDBClient
 import smtplib
 from time import sleep

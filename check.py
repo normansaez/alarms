@@ -1,4 +1,4 @@
-#from influxdb import InfluxDBClient
+from influxdb import InfluxDBClient
 import smtplib
 from time import sleep
 #from threading import Thread
@@ -30,13 +30,16 @@ def send_email(send_to='norman.saez@blueshadows.cl', room=''):
 
 
 def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/CO2/CO2'):
-    return 0
-#    client = InfluxDBClient('localhost', 8086, 'root', 'root', database)
-#    result = client.query('SELECT count("value") FROM "%s"'%monitor)
-#    return list(result.get_points())[0]['count']
     
+    client = InfluxDBClient('localhost', 8086, 'root', 'root', database)
+    result = client.query('SELECT count("value") FROM "%s"'%monitor)
+    if result.items().__len__() > 0:
+        return list(result.get_points())[0]['count']
+    return 0
+
 def is_stuck(database, point):
 #    print point
+    database = database.lower()
     m1 = query_count(database, point) 
     sleep(1)
     m2 = query_count(database, point) 

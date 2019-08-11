@@ -136,7 +136,7 @@ def monitor_points(filename, time2wait=1):
     executor = ThreadPoolExecutor(max_workers=len(all_threads))
     tasks_results = []
     for k,v in all_threads.iteritems():
-        is_room_stuck(k,v)
+#        is_room_stuck(k,v)
         task = executor.submit(is_room_stuck,k,v,time2wait)
         if task.result() is True:
             msg = 'Check ROOM %s , it seems to be off' % k

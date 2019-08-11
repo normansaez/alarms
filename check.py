@@ -29,7 +29,7 @@ def send_email(send_to='norman.saez@blueshadows.cl', room='', mess=''):
     mailserver.ehlo()
     mailserver.login('sealand.alarms@gmail.com', 'myalarms123!')
     
-    mailserver.sendmail('sealand.alarms@gmail.com',send_to, msg.as_string())
+#    mailserver.sendmail('sealand.alarms@gmail.com',send_to, msg.as_string())
     
     mailserver.quit()
 
@@ -136,12 +136,12 @@ def monitor_points(filename, time2wait=1):
     executor = ThreadPoolExecutor(max_workers=len(all_threads))
     tasks_results = []
     for k,v in all_threads.iteritems():
-#        is_room_stuck(k,v)
+        is_room_stuck(k,v,time2wait)
         task = executor.submit(is_room_stuck,k,v,time2wait)
         if task.result() is True:
             msg = 'Check ROOM %s , it seems to be off' % k
-            send_email('norman.saez@blueshadows.cl',k, msg)
-            send_email('tshen@blueshadows.cl',k, msg)
+#            send_email('norman.saez@blueshadows.cl',k, msg)
+#            send_email('tshen@blueshadows.cl',k, msg)
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:

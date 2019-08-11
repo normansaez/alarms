@@ -74,6 +74,7 @@ def is_room_stuck(database_room, monitors):
     goto: is_stuck
     '''
     print database_room
+    print monitors
     database = database_room.split("|")[0]
     executor = ThreadPoolExecutor(max_workers=len(monitors))
     tasks_results = []
@@ -124,16 +125,21 @@ def monitor_points():
                 temp = []
         elif not data.__contains__('#'):
                 data = data.rsplit('\n')[0]
+                print data
                 namespace = data.split("/")
+                print namespace
                 database = namespace[0]
                 room = namespace[2]
-                monitor = namespace[1]+"/"+namespace[2]+"/"+namespace[3]+"/"+namespace[4]+"/"+namespace[5]+namespace[6]
+                monitor = namespace[1]+"/"+namespace[2]+"/"+namespace[3]+"/"+namespace[4]+"/"+namespace[5]+"/"+namespace[6]
+                print monitor
                 temp.append(monitor)
     all_threads.update({database+"|"+room:temp})
-
+    print  
     executor = ThreadPoolExecutor(max_workers=len(all_threads))
     for k,v in all_threads.iteritems():
         is_room_stuck(k,v)
+        print k
+        print v
         task = executor.submit(is_room_stuck,k,v)
     executor.shutdown(wait=True)
 

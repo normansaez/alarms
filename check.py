@@ -9,6 +9,9 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 def send_email(send_to='norman.saez@blueshadows.cl', room=''):
+    '''
+    Sent the email
+    '''
     msg = MIMEMultipart()
     msg['From'] = 'sealand.alarms@gmail.com'
     msg['To'] = send_to
@@ -31,7 +34,10 @@ def send_email(send_to='norman.saez@blueshadows.cl', room=''):
 
 
 def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/CO2/CO2'):
-    
+    '''
+    Conect to InfluxDB and get the number of the rows.
+    return the number of rows
+    '''
     client = InfluxDBClient('localhost', 8086, 'root', 'root', database)
     result = client.query('SELECT count("value") FROM "%s"'%monitor)
     if result.items().__len__() > 0:
@@ -39,7 +45,12 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
     return 0
 
 def is_stuck(database, point):
-#    print point
+    '''
+    make a query and after a minute check if the same query has the same counts
+    of rows.
+    In that way we could check that we are already gathering information.
+    therefore we should get the difference between 
+    '''
     database = database.lower()
     m1 = query_count(database, point) 
     sleep(1)
@@ -50,6 +61,15 @@ def is_stuck(database, point):
     return False
         
 def is_room_stuck(database_room, monitors):
+    '''
+    database|room , a list of monitor points.
+
+    check in a thread for each monitor point if is stuck
+
+    wait for the results which should be a number bigger than zero
+
+    goto: is_stuck
+    '''
     print database_room
     database = database_room.split("|")[0]
     executor = ThreadPoolExecutor(max_workers=len(monitors))
@@ -64,10 +84,29 @@ def is_room_stuck(database_room, monitors):
     for i in tasks_results:
         result = i + result
     print i
-
+    
         
 def monitor_points():
     '''
+    Read a file with this format:
+    ---
+    ROOM
+    monitor point
+    --
+    such as:
+
+    Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Saturation
+
+    called:
+                   |--> database  |--> room
+    namespace = Blumar/Sealand2/SM3B/Biofiltros/Biofiltros1/Oxygen/Saturation
+                        |_____________________________________________> monitor
+    then 
+    a dict is formed such as:
+    {database|room: [monitor1, monitor2, monitorn]}
+
+    then for each ROOM execute a thread to check if the room is stuck:
+    goto: is_room_stuck
     '''
     filename = 'monitors.ctl'
     fpt = open(filename,'rw')

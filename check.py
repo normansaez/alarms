@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-def send_email(send_to='norman.saez@blueshadows.cl', room='', msg=''):
+def send_email(send_to='norman.saez@blueshadows.cl', room='', mess=''):
     '''
     Sent the email
     '''
@@ -16,7 +16,7 @@ def send_email(send_to='norman.saez@blueshadows.cl', room='', msg=''):
     msg['From'] = 'sealand.alarms@gmail.com'
     msg['To'] = send_to
     msg['Subject'] = 'Alarm from %s' % room
-    message = msg
+    message = str(mess)
     msg.attach(MIMEText(message))
     
     mailserver = smtplib.SMTP('smtp.gmail.com:587')

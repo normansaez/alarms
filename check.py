@@ -51,7 +51,7 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
         send_email('norman.saez@blueshadows.cl',database, msg)
         send_email('tshen@blueshadows.cl',database, msg)
         return 0
-def is_stuck(database, point):
+def is_stuck(database, point, time2wait):
     '''
     make a query and after a minute check if the same query has the same counts
     of rows.
@@ -60,14 +60,14 @@ def is_stuck(database, point):
     '''
     database = database.lower()
     m1 = query_count(database, point) 
-    sleep(1)
+    sleep(time2wait)
     m2 = query_count(database, point) 
     diff = abs(m2-m1)
     if diff == 0:
         return 0
     return 1
         
-def is_room_stuck(database_room, monitors):
+def is_room_stuck(database_room, monitors, time2wait):
     '''
     database|room , a list of monitor points.
 
@@ -81,7 +81,7 @@ def is_room_stuck(database_room, monitors):
     executor = ThreadPoolExecutor(max_workers=len(monitors))
     tasks_results = []
     for point in monitors:
-        task = executor.submit(is_stuck,database, point)
+        task = executor.submit(is_stuck,database, point, time2wait)
         tasks_results.append(task.result())
     executor.shutdown(wait=True)
     print tasks_results
@@ -93,7 +93,7 @@ def is_room_stuck(database_room, monitors):
         return True
     return False
         
-def monitor_points(filename):
+def monitor_points(filename, time2wait=1):
     '''
     Read a file with this format:
     ---
@@ -137,7 +137,7 @@ def monitor_points(filename):
     tasks_results = []
     for k,v in all_threads.iteritems():
         is_room_stuck(k,v)
-        task = executor.submit(is_room_stuck,k,v)
+        task = executor.submit(is_room_stuck,k,v,time2wait)
         if task.result() is True:
             msg = 'Check ROOM %s , it seems to be off' % k
             send_email('norman.saez@blueshadows.cl',k, msg)
@@ -152,5 +152,6 @@ if '__main__' == __name__:
     '''
     parser = ArgumentParser(usage=usage,conflict_handler='resolve')
     parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename")
+    parser.add_argument("-t", "--time2wait", default=1, type=int, help="Time beetween checks")
     (options, unknown) = parser.parse_known_args()
-    monitor_points(options.filename)
+    monitor_points(options.filename, options.time2wait)

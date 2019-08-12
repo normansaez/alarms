@@ -135,7 +135,6 @@ def monitor_points(filename, time2wait=1):
     executor = ThreadPoolExecutor(max_workers=len(all_threads))
     tasks_results = []
     for k,v in all_threads.iteritems():
-        is_room_stuck(k,v,time2wait)
         task = executor.submit(is_room_stuck,k,v,time2wait)
         if task.result() is True:
             msg = 'Check ROOM %s , it seems to be off' % k
@@ -150,7 +149,7 @@ if '__main__' == __name__:
     Type -h, --help for help.
     '''
     parser = ArgumentParser(usage=usage,conflict_handler='resolve')
-    parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename")
+    parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename" )
     parser.add_argument("-t", "--time2wait", default=1, type=int, help="Time beetween checks")
     (options, unknown) = parser.parse_known_args()
     monitor_points(options.filename, options.time2wait)

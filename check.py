@@ -9,7 +9,7 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 from argparse import ArgumentParser
 
-def send_email(send_to='norman.saez@blueshadows.cl', room='', mess=''):
+def send_email(send_to='norman.saez@blueshadows.cl,tshen@blueshadows.cl', room='', mess=''):
     '''
     Sent the email
     '''
@@ -48,8 +48,7 @@ def query_count(database='bluemar', monitor='Sealand2/FF2/Biofiltros/Biofiltro1/
     except:
         print "not working.. .!"
         msg = 'Check %s , they are not responding !' % monitor
-        send_email('norman.saez@blueshadows.cl',database, msg)
-        send_email('tshen@blueshadows.cl',database, msg)
+        send_email(room=database, mess=msg)
         return 0
 def is_stuck(database, point, time2wait):
     '''
@@ -140,8 +139,8 @@ def monitor_points(filename, time2wait=1):
         task = executor.submit(is_room_stuck,k,v,time2wait)
         if task.result() is True:
             msg = 'Check ROOM %s , it seems to be off' % k
-#            send_email('norman.saez@blueshadows.cl',k, msg)
-#            send_email('tshen@blueshadows.cl',k, msg)
+            send_email(room=k, mess=msg)
+
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:

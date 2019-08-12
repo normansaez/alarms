@@ -3,7 +3,7 @@ from influxdb import InfluxDBClient
 import smtplib
 from time import sleep
 #from threading import Thread
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
@@ -77,7 +77,7 @@ def is_room_stuck(database_room, monitors, time2wait):
     goto: is_stuck
     '''
     database = database_room.split("|")[0]
-    executor = ThreadPoolExecutor(max_workers=len(monitors))
+    executor = ProcessPoolExecutor(max_workers=len(monitors))
     tasks_results = []
     for point in monitors:
         task = executor.submit(is_stuck,database, point, time2wait)
@@ -132,7 +132,7 @@ def monitor_points(filename, time2wait=1):
                 monitor = namespace[1]+"/"+namespace[2]+"/"+namespace[3]+"/"+namespace[4]+"/"+namespace[5]+"/"+namespace[6]
                 temp.append(monitor)
     all_threads.update({database+"|"+room:temp})
-    executor = ThreadPoolExecutor(max_workers=len(all_threads))
+    executor = ProcessPoolExecutor(max_workers=len(all_threads))
     tasks_results = []
     for k,v in all_threads.iteritems():
         task = executor.submit(is_room_stuck,k,v,time2wait)

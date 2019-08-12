@@ -29,7 +29,7 @@ def send_email(send_to='norman.saez@blueshadows.cl,tshen@blueshadows.cl', room='
     mailserver.ehlo()
     mailserver.login('sealand.alarms@gmail.com', 'myalarms123!')
     
-#    mailserver.sendmail('sealand.alarms@gmail.com',send_to, msg.as_string())
+    mailserver.sendmail('sealand.alarms@gmail.com',send_to, msg.as_string())
     
     mailserver.quit()
 

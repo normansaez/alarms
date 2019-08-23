@@ -143,13 +143,16 @@ def monitor_points(filename, time2wait=1):
     executor.shutdown(wait=True)
 
 if '__main__' == __name__:
-    usage = '''
-    Usage: check [options]
-    
-    Type -h, --help for help.
-    '''
-    parser = ArgumentParser(usage=usage,conflict_handler='resolve')
-    parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename" )
-    parser.add_argument("-t", "--time2wait", default=1, type=int, help="Time beetween checks")
-    (options, unknown) = parser.parse_known_args()
-    monitor_points(options.filename, options.time2wait)
+#    usage = '''
+#    Usage: check [options]
+#    
+#    Type -h, --help for help.
+#    '''
+#    parser = ArgumentParser(usage=usage,conflict_handler='resolve')
+#    parser.add_argument("-f", "--filename", default="monitors.ctl", type=str, help="filename" )
+#    parser.add_argument("-t", "--time2wait", default=1, type=int, help="Time beetween checks")
+#    (options, unknown) = parser.parse_known_args()
+#    monitor_points(options.filename, options.time2wait)
+    while True:
+        monitor_points('monitors.ctl','120')
+        sleep(60)
